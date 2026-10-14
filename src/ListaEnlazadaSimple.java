@@ -100,11 +100,7 @@ public class ListaEnlazadaSimple<T> {
      * @return true si el valor existe en algun nodo, false en caso contrario
      */
     public boolean buscar(T valorBuscado) {
-        // ====================================================================
-        // TODO: [ESTUDIANTE] Escribe aqui tu algoritmo de busqueda lineal.
-        // Guiate con el diagrama de flujo proporcionado en el README.md.
-        // ====================================================================
-
+    
         System.out.println("  [AVISO] El metodo buscar() aun no ha sido implementado por el estudiante.");
         return false;
     }
@@ -123,10 +119,5 @@ public class ListaEnlazadaSimple<T> {
         this.cantidad--;
         System.out.println("  [ELIMINADO] Dato retirado: [" + datoEliminado + "] (El Garbage Collector liberara su memoria Heap)");
         return datoEliminado;
-    }
-
-    // Retorna la cantidad total de nodos registrados
-    public int getCantidad() {
-        return this.cantidad;
     }
 }

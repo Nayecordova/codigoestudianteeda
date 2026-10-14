@@ -8,10 +8,12 @@
  * CLASE NODO:
  * Modela el vagón elemental de memoria que almacena un dato genérico <T>
  * y una referencia al siguiente nodo en la memoria Heap.
+ * Nombre: Nayeli Jamileth Córdova Pionce
  */
+ 
 public class Nodo<T> {
 
-    // 1. Carga util almacenada en el nodo
+    // 1. Carga útil almacenada en el nodo
     public T dato;
 
     // 2. Referencia (puntero) hacia el siguiente nodo enlazado
@@ -27,10 +29,5 @@ public class Nodo<T> {
     public Nodo(T dato, Nodo<T> siguiente) {
         this.dato = dato;
         this.siguiente = siguiente;
-    }
-
-    @Override
-    public String toString() {
-        return "[" + this.dato + "]";
     }
 }

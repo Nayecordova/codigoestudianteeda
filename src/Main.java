@@ -45,13 +45,13 @@ public class Main {
         // --------------------------------------------------------------------
         // PASO 3: Insercion al Final - Operacion O(N)
         // --------------------------------------------------------------------
-        System.out.println(">>> PASO 3: Insercion al Final (Operacion O(N))");
-        System.out.println("  Insertaremos: 40, luego 50 al final de la cola del tren");
-        listaEnteros.insertarAlFinal(40);
-        listaEnteros.insertarAlFinal(50);
-        listaEnteros.mostrarLista();
-        System.out.println("  Total de nodos en la lista: " + listaEnteros.getCantidad());
-        System.out.println();
+   System.out.println(">>> PASO 3: Insercion al Final (Operacion O(N))");
+   System.out.println(" Insertaremos: 40, luego 50 al final de la lista");
+   listaEnteros.insertarAlFinal(40);
+listaEnteros.insertarAlFinal(50);
+listaEnteros.mostrarLista();
+System.out.println(" Total de nodos en la lista: " + listaEnteros.getCantidad());
+System.out.println();
 
         // --------------------------------------------------------------------
         // PASO 4: TALLER AUTONOMO - Busqueda Lineal de Elementos
@@ -61,17 +61,15 @@ public class Main {
         System.out.println("  Luego de implementarlo, descomenta las siguientes lineas de prueba:");
         System.out.println();
 
-        /*
         // DESCOMENTAR CUANDO IMPLEMENTES EL METODO buscar():
-        System.out.println("  1. Buscando el numero 30 (que si existe):");
-        boolean encontrado30 = listaEnteros.buscar(30);
-        System.out.println("     Resultado obtenido: " + encontrado30 + " | Esperado: true");
+System.out.println(" 1. Buscando el numero 30 (que si existe):");
+boolean encontrado30 = listaEnteros.buscar(30);
+System.out.println(" Resultado obtenido: " + encontrado30);
 
-        System.out.println("\n  2. Buscando el numero 99 (que no existe):");
-        boolean encontrado99 = listaEnteros.buscar(99);
-        System.out.println("     Resultado obtenido: " + encontrado99 + " | Esperado: false");
-        */
-        listaEnteros.buscar(30); // Llamada actual al metodo pendiente
+System.out.println("\n 2. Buscando el numero 99 (que no existe):");
+boolean encontrado99 = listaEnteros.buscar(99);
+System.out.println(" Resultado obtenido: " + encontrado99);
+        listaEnteros.buscar(30); 
         System.out.println();
 
         // --------------------------------------------------------------------
